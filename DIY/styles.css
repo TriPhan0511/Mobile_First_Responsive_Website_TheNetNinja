@@ -1,0 +1,103 @@
+/* Reset */
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body > * {
+  padding: 0 0.5rem;
+  margin: 2rem 0;
+}
+
+ul li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+a {
+  color: #000;
+}
+
+a:visited {
+  color: #000;
+}
+
+/* General */
+body {
+  background-color: #0a0b5b;
+  color: #fff;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-auto-rows: minmax(100px, auto);
+  gap: 10px;
+}
+
+.button {
+  color: #ffc636;
+  border: 1px solid #ffc636;
+  padding: 5px 10px;
+  border-radius: 50px;
+  text-transform: uppercase;
+}
+
+.button:hover {
+  background-color: #ffc636;
+  color: #fff;
+}
+
+#welcome img {
+  width: 100%;
+  height: auto;
+}
+
+/* Nav */
+.site-nav ul {
+  display: none;
+}
+
+.site-nav.grid {
+  grid-template-columns: 100%;
+  grid-template-rows: auto;
+}
+
+/* Welcome */
+#welcome {
+  margin-top: 2rem;
+}
+
+#welcome .welcome-text {
+  line-height: 1.5;
+}
+
+#welcome .welcome-text h2 {
+  font-size: 2rem;
+}
+
+#welcome .welcome-text p.leading {
+  margin-bottom: 1.5rem;
+}
+
+/* Porfolio */
+#portfolio {
+  background-color: #040525;
+  padding-top: 2rem;
+}
+
+#portfolio h3 {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+#portfolio h4 {
+  color: #fff;
+}
+
+#portfolio .grid {
+  /* grid-template-columns: 100%; */
+}
