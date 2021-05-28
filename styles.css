@@ -247,6 +247,52 @@ footer img {
 
 /* small tablet styles */
 @media screen and (min-width: 620px) {
+  /* Welcome */
+  #welcome .welcome-text {
+    grid-column: 1/5;
+  }
+
+  #welcome .welcome-img {
+    grid-column: 5/9;
+  }
+
+  #welcome img {
+    width: 100%;
+  }
+
+  /* Portfolio */
+  .projects {
+    margin-top: 40px;
+  }
+
+  .projects a {
+    grid-column: span 4;
+    display: block;
+    margin: 20px 0;
+  }
+
+  .projects a:last-child {
+    grid-column: 3/7;
+  }
+
+  .projects a * {
+    max-width: 60%;
+    margin: 10px 20%;
+  }
+
+  .projects h4 {
+    text-align: center;
+  }
+
+  /* Skills */
+  #skills {
+    padding: 30px 10px;
+  }
+
+  /* Footer */
+  footer {
+    background-size: 20%;
+  }
 }
 
 /* large tablet and laptop */
